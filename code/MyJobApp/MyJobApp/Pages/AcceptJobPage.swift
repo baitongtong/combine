@@ -1,5 +1,5 @@
-// Created by 丰源天下 on 2021/11/30.
-// Copyright © 2021 Suzhou Fengyuan World Media. All rights reserved.
+// Created by 白童童 on 2022/11/30.
+// Copyright © 2022白童童. All rights reserved.
 
 import SwiftUI
 import Combine
@@ -28,7 +28,7 @@ struct AcceptJobPage: View {
     @State private var date = Date()
     private let dateRange: ClosedRange<Date> = {
         let calendar = Calendar.current
-        let startComponents = DateComponents(year: 2021, month: 1, day: 1)
+        let startComponents = DateComponents(year: 2022, month: 1, day: 1)
         let endComponents = DateComponents(year: 2121, month: 12, day: 31, hour: 23, minute: 59, second: 59)
         return calendar.date(from:startComponents)!...calendar.date(from:endComponents)!
     }()

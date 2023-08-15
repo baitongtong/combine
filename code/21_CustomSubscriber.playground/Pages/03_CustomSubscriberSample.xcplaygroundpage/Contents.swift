@@ -1,5 +1,5 @@
-// Created by 丰源天下 on 2021/11/30.
-// Copyright © 2021 Suzhou Fengyuan World Media. All rights reserved.
+// Created by 白童童 on 2022/11/30.
+// Copyright © 2022白童童. All rights reserved.
 import Foundation
 import Combine
 
@@ -48,14 +48,14 @@ testSample(label: "Subscriber sample3" ) {
         }
     }
     
-    let subscriber = SearchSubscriber(searchString: "丰源天下")
+    let subscriber = SearchSubscriber(searchString: "白童童")
     
     let publisher = PassthroughSubject<String, Never>()
     publisher.subscribe(subscriber)
-    publisher.send("苏州丰源天下")
-    publisher.send("丰源天下传媒")
-    publisher.send("丰源天下") /// 找到，后续不再接受。
-    publisher.send("苏州丰源天下传媒")
+    publisher.send("苏州白童童")
+    publisher.send("白童童传媒")
+    publisher.send("白童童") /// 找到，后续不再接受。
+    publisher.send("苏州白童童传媒")
     publisher.send(completion: .finished)
 }
 
@@ -105,13 +105,13 @@ testSample(label: "Subscriber sample31" ) {
         }
     }
     
-    let subscriber = SearchSubscriber(searchString: "丰源天下")
+    let subscriber = SearchSubscriber(searchString: "白童童")
     
     publisher.subscribe(subscriber)
-    publisher.send("苏州丰源天下")
-    publisher.send("丰源天下传媒")
-    publisher.send("丰源天下") /// 找到，后续不再接受。
-    publisher.send("苏州丰源天下传媒")
+    publisher.send("苏州白童童")
+    publisher.send("白童童传媒")
+    publisher.send("白童童") /// 找到，后续不再接受。
+    publisher.send("苏州白童童传媒")
     publisher.send(completion: .finished)
 }
 
@@ -167,12 +167,12 @@ testSample(label: "Subscriber sample32" ) {
         }
     }
     
-    let subscriber = SearchSubscriber(searchString: "丰源天下")
+    let subscriber = SearchSubscriber(searchString: "白童童")
     
     publisher.subscribe(subscriber)
-    publisher.send("苏州丰源天下")
-    publisher.send("丰源天下传媒")
-    publisher.send("丰源天下") /// 找到，后续不再接受。
-    publisher.send("苏州丰源天下传媒")
+    publisher.send("苏州白童童")
+    publisher.send("白童童传媒")
+    publisher.send("白童童") /// 找到，后续不再接受。
+    publisher.send("苏州白童童传媒")
     publisher.send(completion: .finished)
 }

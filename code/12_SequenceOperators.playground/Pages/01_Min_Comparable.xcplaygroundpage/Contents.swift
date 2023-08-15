@@ -1,5 +1,5 @@
-// Created by 丰源天下 on 2021/11/30.
-// Copyright © 2021 Suzhou Fengyuan World Media. All rights reserved.
+// Created by 白童童 on 2022/11/30.
+// Copyright © 2022白童童. All rights reserved.
 
 import Foundation
 import Combine
@@ -47,9 +47,9 @@ struct CustomDate: Comparable {
 }
 
 testSample(label: "01_Min_Comparable") {
-    let date1 = CustomDate(year: 2021, month: 10, day: 5)
-    let date2 = CustomDate(year: 2021, month: 10, day: 6)
-    let date3 = CustomDate(year: 2021, month: 10, day: 4)
+    let date1 = CustomDate(year: 2022, month: 10, day: 5)
+    let date2 = CustomDate(year: 2022, month: 10, day: 6)
+    let date3 = CustomDate(year: 2022, month: 10, day: 4)
     let dates = [date1,date2,date3]
     print(dates)
     print(dates.sorted()) // 升序
@@ -70,10 +70,10 @@ testSample(label: "01_Min02") {
             print("01_Min02 min value : \(minValue)")
         }).store(in: &subscriptions)
     
-    let date1 = CustomDate(year: 2021, month: 10, day: 5)
-    let date2 = CustomDate(year: 2021, month: 10, day: 3)
-    let date3 = CustomDate(year: 2021, month: 10, day: 4)
-    let date4 = CustomDate(year: 2021, month: 10, day: 8)
+    let date1 = CustomDate(year: 2022, month: 10, day: 5)
+    let date2 = CustomDate(year: 2022, month: 10, day: 3)
+    let date3 = CustomDate(year: 2022, month: 10, day: 4)
+    let date4 = CustomDate(year: 2022, month: 10, day: 8)
     
     sourcePublisher.send(date1)
     sourcePublisher.send(date2)

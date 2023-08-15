@@ -72,7 +72,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"header\": {\n        \"result_cd\": \"OK\"\n    },\n   \n    \"body\": {\n        \"job_infos\": [\n            {\n                \"job_id\": \"job001\",\n                \"job_name\": \"java工程师\",\n                \"salary\": 15000,\n                \"company_name\": \"丰源天下\",\n                \"new_flag\": \"1\"\n            },\n            {\n                \"job_id\": \"job002\",\n                \"job_name\": \"iOS工程师\",\n                \"salary\": 20000,\n                \"company_name\": \"丰源天下\",\n                \"new_flag\": \"0\"\n            },\n            {\n                \"job_id\": \"job003\",\n                \"job_name\": \"IT讲师\",\n                \"salary\": 30000,\n                \"company_name\": \"马尔斯网络科技\",\n                \"new_flag\": \"1\"\n            },\n            {\n                \"job_id\": \"job004\",\n                \"job_name\": \"IT讲师\",\n                \"salary\": 30000,\n                \"company_name\": \"马尔斯网络科技\",\n                \"new_flag\": \"0\"\n            }\n     ]\n    }\n}"
+							"body": "{\n    \"header\": {\n        \"result_cd\": \"OK\"\n    },\n   \n    \"body\": {\n        \"job_infos\": [\n            {\n                \"job_id\": \"job001\",\n                \"job_name\": \"java工程师\",\n                \"salary\": 15000,\n                \"company_name\": \"白童童\",\n                \"new_flag\": \"1\"\n            },\n            {\n                \"job_id\": \"job002\",\n                \"job_name\": \"iOS工程师\",\n                \"salary\": 20000,\n                \"company_name\": \"白童童\",\n                \"new_flag\": \"0\"\n            },\n            {\n                \"job_id\": \"job003\",\n                \"job_name\": \"IT讲师\",\n                \"salary\": 30000,\n                \"company_name\": \"马尔斯网络科技\",\n                \"new_flag\": \"1\"\n            },\n            {\n                \"job_id\": \"job004\",\n                \"job_name\": \"IT讲师\",\n                \"salary\": 30000,\n                \"company_name\": \"马尔斯网络科技\",\n                \"new_flag\": \"0\"\n            }\n     ]\n    }\n}"
 						}
 					]
 				},
@@ -150,7 +150,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"header\": {\n        \"result_cd\": \"OK\"\n    },\n    \"body\":{ \n            \"job_id\": \"job001\",\n            \"job_name\" : \"java工程师\",\n            \"salary\": 15000,\n            \"company_name\": \"丰源天下\",\n            \"new_flag\": \"1\" ,\n            \"date_from\": \"20220101\",\n            \"date_to\": \"20230101\",\n            \"detail\": \"有5年工作经验，喜欢新技术\"\n    }\n}"
+							"body": "{\n    \"header\": {\n        \"result_cd\": \"OK\"\n    },\n    \"body\":{ \n            \"job_id\": \"job001\",\n            \"job_name\" : \"java工程师\",\n            \"salary\": 15000,\n            \"company_name\": \"白童童\",\n            \"new_flag\": \"1\" ,\n            \"date_from\": \"20220101\",\n            \"date_to\": \"20230101\",\n            \"detail\": \"有5年工作经验，喜欢新技术\"\n    }\n}"
 						}
 					]
 				},
